@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Around Cafe</title>
+    <meta name="description" content="Around Cafe — cold brew, espresso, boba blends, and floats." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="brand-mark">
+            <img src="around-logo-crop.jpg" alt="Around Cafe logo" />
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">Around</span>
+            <span class="brand-sub">Cafe</span>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#visit">Visit</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" data-hero-rotate="asthetic1.png|asthetic2.png">
+        <div class="hero-bg" style="background-image: url('asthetic1.png');"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Neighborhood Coffee + Boba</p>
+            <h1>Chill brews, bright blends, and a calm place to land.</h1>
+            <p class="lead">Around Cafe serves cold brew, espresso favorites, boba blends, and floats — crafted fast, served friendly.</p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#menu">View Menu</a>
+              <a class="btn ghost" href="#visit">Visit Us</a>
+              <a class="btn accent" href="tel:2242488625">Order Ahead</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-top">
+              <span id="picks-title">Today’s Picks</span>
+            </div>
+            <div class="hero-card-body" id="picks-body">
+              <div class="pill">Cold Brew</div>
+              <div class="pill">Nitro Coffee</div>
+              <div class="pill">Citron Boba</div>
+              <div class="pill">Latte Float</div>
+            </div>
+            <div class="hero-card-footer">
+              <span id="picks-footer">Ask about seasonal flavors.</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-glow"></div>
+      </section>
+
+      <section class="featured">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Popular Drinks</p>
+            <h2>Signature favorites</h2>
+            <p class="section-sub">A few go-to drinks our regulars love.</p>
+          </div>
+          <div class="featured-grid">
+            <div class="featured-card">
+              <h3>Cold Brew</h3>
+              <p>Smooth, slow-steeped coffee served chilled.</p>
+            </div>
+            <div class="featured-card">
+              <h3>Citron Boba</h3>
+              <p>Refreshing citrus tea with chewy boba.</p>
+            </div>
+            <div class="featured-card">
+              <h3>Latte Float</h3>
+              <p>Espresso with a creamy, sweet finish.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="menu">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Menu</p>
+            <h2>What we’re pouring</h2>
+            <p class="section-sub">Simple, fast, and refreshing. Prices listed below.</p>
+          </div>
+
+          <div class="menu-grid">
+            <div class="menu-card">
+              <h3>Iced Brewed</h3>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Cold Brew</span>
+                  <span class="item-size">Small</span>
+                </div>
+                <span class="item-price">$3.50</span>
+              </div>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Cold Brew</span>
+                  <span class="item-size">Large</span>
+                </div>
+                <span class="item-price">$4.00</span>
+              </div>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Nitro Coffee</span>
+                  <span class="item-size">Small</span>
+                </div>
+                <span class="item-price">$4.00</span>
+              </div>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Nitro Coffee</span>
+                  <span class="item-size">Large</span>
+                </div>
+                <span class="item-price">$4.50</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <h3>Espresso</h3>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Affogato</span>
+                  <span class="item-size">Small</span>
+                </div>
+                <span class="item-price">$5.00</span>
+              </div>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Flat White</span>
+                  <span class="item-size">Small</span>
+                </div>
+                <span class="item-price">$3.50</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <h3>Blended X Boba</h3>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Citron</span>
+                  <span class="item-size">Medium</span>
+                </div>
+                <span class="item-price">$5.00</span>
+              </div>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Banana Almond</span>
+                  <span class="item-size">Medium</span>
+                </div>
+                <span class="item-price">$5.50</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <h3>Floats</h3>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Green Tea Latte Float</span>
+                </div>
+                <span class="item-price">$5.50</span>
+              </div>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Latte Float</span>
+                </div>
+                <span class="item-price">$5.50</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <h3>Iced Tea</h3>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Summer Lemon</span>
+                  <span class="item-size">Medium</span>
+                </div>
+                <span class="item-price">$3.00</span>
+              </div>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Sweet Peach</span>
+                  <span class="item-size">Medium</span>
+                </div>
+                <span class="item-price">$3.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>About Around Cafe</h2>
+            <p class="section-sub">
+              Around Cafe is a neighborhood coffee and boba spot in Arlington Heights,
+              serving cold brew, espresso drinks, and refreshing blends in a relaxed space.
+              Stop in for quick service and chill vibes.
+            </p>
+          </div>
+          <div class="about-card">
+            <div>
+              <h4>Why guests stop in</h4>
+              <p class="muted-dark">Friendly service, fast drinks, and a cozy place to reset.</p>
+            </div>
+            <div>
+              <h4>Best time to visit</h4>
+              <p class="muted-dark">Late morning and early afternoon for a quieter vibe.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Gallery</p>
+            <h2>Inside Around Cafe</h2>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-item">
+              <div class="gallery-img">
+                <img src="coldbrew1.png" alt="Coffee drinks from Around Cafe" />
+              </div>
+              <figcaption>Coffee drinks</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <div class="gallery-img">
+                <img class="boba-img" src="boba.png" alt="Boba drinks from Around Cafe" />
+              </div>
+              <figcaption>Boba drinks</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <div class="gallery-img">
+                <img src="pastry 1.png" alt="Pastries at Around Cafe" />
+              </div>
+              <figcaption>Pastries</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Reviews</p>
+            <h2>What people are saying</h2>
+            <p class="section-sub">A few recent highlights from guests.</p>
+          </div>
+          <div class="reviews-grid">
+            <div class="review-card">
+              <span class="stars">★★★★★</span>
+              <p>
+                I love this cafe, the staff are super friendly and always able to make
+                recommendations. Prices are reasonable and they have the best espresso.
+              </p>
+              <span class="muted-dark">— Abigail Torres</span>
+            </div>
+            <div class="review-card">
+              <span class="stars">★★★★★</span>
+              <p>
+                Cute corner coffee shop. Excellent and smooth espresso. Simple, clean,
+                and calm with lots of outlets and several seating areas.
+              </p>
+              <span class="muted-dark">— Samar</span>
+            </div>
+            <div class="review-card">
+              <span class="stars">★★★★★</span>
+              <p>
+                Cute, quaint cafe with lots of fun, reasonably priced options. We tried
+                the peppermint mocha and butterscotch latte and would recommend both.
+              </p>
+              <span class="muted-dark">— Amelia</span>
+            </div>
+          </div>
+          <div class="reviews-cta">
+            <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Around%20Cafe%20Arlington%20Heights%20IL" target="_blank" rel="noopener noreferrer">See more on Google</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="visit" class="visit">
+        <div class="container visit-grid">
+          <div>
+            <p class="eyebrow">Visit</p>
+            <h2>Come hang out at Around Cafe</h2>
+            <p class="section-sub">Cozy vibes, quick service, and chilled drinks all day.</p>
+            <div class="visit-actions">
+              <a class="btn primary" href="https://www.google.com/maps/dir/?api=1&destination=28%20E%20Northwest%20Hwy,%20Arlington%20Heights,%20IL%2060004" target="_blank" rel="noopener noreferrer">Get Directions</a>
+              <a class="btn ghost" href="tel:2242488625">Call Cafe</a>
+              <a class="btn ghost" href="https://instagram.com/around_cafe" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+          </div>
+          <div class="visit-card">
+            <div>
+              <h4>Location</h4>
+              <p class="muted">28 East Northwest Highway<br />Arlington Heights, IL 60004</p>
+            </div>
+            <div>
+              <h4>Hours</h4>
+              <p class="muted">
+                Mon–Fri: 8 AM–6 PM<br />
+                Saturday: 8 AM–3 PM<br />
+                Sunday: Closed
+              </p>
+            </div>
+            <div>
+              <h4>Contact</h4>
+              <p class="muted"><a class="contact-link" href="tel:2242488625">(224) 248-8625</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="container map-wrap">
+          <iframe
+            class="map"
+            title="Around Cafe location"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=28%20E%20Northwest%20Hwy,%20Arlington%20Heights,%20IL%2060004&output=embed"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© 2026 Around Cafe</span>
+        <span class="muted">Coffee • Espresso • Boba • Tea</span>
+        <a class="social" href="https://instagram.com/around_cafe" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        const picksTitle = document.getElementById("picks-title");
+        const picksBody = document.getElementById("picks-body");
+        const picksFooter = document.getElementById("picks-footer");
+
+        const picks = [
+          "Cold Brew",
+          "Nitro Coffee",
+          "Citron Boba",
+          "Latte Float",
+          "Green Tea Latte Float",
+          "Summer Lemon Iced Tea",
+        ];
+
+        const closedDays = [0]; // Sunday
+        const today = new Date();
+        const isClosed = closedDays.includes(today.getDay());
+
+        if (isClosed) {
+          picksTitle.textContent = "Closed Today";
+          picksBody.innerHTML = "<div class=\"pill\">See you Monday</div>";
+          picksFooter.textContent = "We’ll be back 8 AM–6 PM.";
+          return;
+        }
+
+        let index = 0;
+        const renderPicks = () => {
+          const items = [];
+          for (let i = 0; i < 4; i++) {
+            const pick = picks[(index + i) % picks.length];
+            items.push(`<div class="pill">${pick}</div>`);
+          }
+          picksBody.innerHTML = items.join("");
+          index = (index + 1) % picks.length;
+        };
+
+        renderPicks();
+        setInterval(renderPicks, 3500);
+
+        const hero = document.querySelector("[data-hero-rotate]");
+        if (hero) {
+          const heroBg = hero.querySelector(".hero-bg");
+          const sources = hero.dataset.heroRotate
+            .split("|")
+            .map((s) => s.trim())
+            .filter(Boolean);
+          if (heroBg && sources.length > 1) {
+            let idx = 0;
+            setInterval(() => {
+              idx = (idx + 1) % sources.length;
+              heroBg.style.backgroundImage = `url('${sources[idx]}')`;
+            }, 5000);
+          }
+        }
+
+
+      })();
+    </script>
+  </body>
+</html>
