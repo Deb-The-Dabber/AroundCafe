@@ -27,15 +27,28 @@
           </div>
         </div>
         <nav class="nav">
+          <a href="#home">Home</a>
           <a href="#menu">Menu</a>
-          <a href="#about">About</a>
-          <a href="#visit">Visit</a>
+          <a href="#hours">Hours</a>
+          <a href="#visit">Location</a>
+          <a href="#reviews">Reviews</a>
         </nav>
+        <div class="header-actions">
+          <a class="btn ghost btn-sm" href="tel:2242488625">Call</a>
+          <a
+            class="btn primary btn-sm"
+            href="https://www.google.com/maps/dir/?api=1&destination=28%20E%20Northwest%20Hwy,%20Arlington%20Heights,%20IL%2060004"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Directions
+          </a>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="hero" data-hero-rotate="asthetic1.png|asthetic2.png">
+      <section id="home" class="hero" data-hero-rotate="asthetic1.png|asthetic2.png">
         <div class="hero-bg" style="background-image: url('asthetic1.png');"></div>
         <div class="container hero-grid">
           <div class="hero-copy">
@@ -45,6 +58,7 @@
             <div class="hero-actions">
               <a class="btn primary" href="#menu">View Menu</a>
               <a class="btn ghost" href="#visit">Visit Us</a>
+              <a class="btn ghost" href="https://www.google.com/maps/dir/?api=1&destination=28%20E%20Northwest%20Hwy,%20Arlington%20Heights,%20IL%2060004" target="_blank" rel="noopener noreferrer">Get Directions</a>
               <a class="btn accent" href="tel:2242488625">Order Ahead</a>
               <a class="btn ghost mobile-only" href="tel:2242488625">Call Now</a>
             </div>
@@ -147,6 +161,28 @@
                   <span class="item-size">Small</span>
                 </div>
                 <span class="item-price">$3.50</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <h3>Breakfast</h3>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Avocado Toast</span>
+                </div>
+                <span class="item-price">$6.00</span>
+              </div>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Breakfast Sandwich</span>
+                </div>
+                <span class="item-price">$6.50</span>
+              </div>
+              <div class="menu-item">
+                <div>
+                  <span class="item-name">Bagel + Cream Cheese</span>
+                </div>
+                <span class="item-price">$4.00</span>
               </div>
             </div>
 
@@ -258,7 +294,7 @@
         </div>
       </section>
 
-      <section class="reviews">
+      <section id="reviews" class="reviews">
         <div class="container">
           <div class="section-head">
             <p class="eyebrow">Reviews</p>
@@ -293,6 +329,30 @@
           </div>
           <div class="reviews-cta">
             <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Around%20Cafe%20Arlington%20Heights%20IL" target="_blank" rel="noopener noreferrer">See more on Google</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="hours" class="hours">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Hours</p>
+            <h2>Open daily for coffee + boba</h2>
+            <p class="section-sub">Plan your visit with a quick glance at our hours.</p>
+          </div>
+          <div class="hours-grid">
+            <div class="hours-card">
+              <span class="hours-day">Monday–Friday</span>
+              <span class="hours-time">8:00 AM – 6:00 PM</span>
+            </div>
+            <div class="hours-card">
+              <span class="hours-day">Saturday</span>
+              <span class="hours-time">8:00 AM – 3:00 PM</span>
+            </div>
+            <div class="hours-card">
+              <span class="hours-day">Sunday</span>
+              <span class="hours-time">Closed</span>
+            </div>
           </div>
         </div>
       </section>
